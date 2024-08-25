@@ -1,0 +1,105 @@
+/* variables */
+:root {
+    --primary-clr-100: hsl(218, 28%, 13%);
+    --primary-clr-200: hsl(217, 28%, 15%);
+
+    --secondery-clr-100: hsl(219, 30%, 18%);
+    --secondery-clr-200: hsl(216, 53%, 9%);
+    --secondery-clr-300: hsl(219, 30%, 18%);
+
+    --accent-clr-100: hsl(176, 68%, 64%);
+    --accent-clr-200: hsl(198, 60%, 50%);
+    --accent-clr-300: hsl(0, 100%, 63%);
+
+    --neutral-clr: hsl(0, 0%, 100%);
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: var(--primary-clr-100);
+    color: var(--neutral-clr);
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+}
+
+h1, h2 {
+    font-size: 1.4rem;
+}
+
+.bg-secondery-200 {
+    background-color: var(--secondery-clr-200);
+}
+
+.bg-secondery-300 {
+    background-color: var(--secondery-clr-300);
+}
+
+.bg-primary-200 {
+    background-color: var(--primary-clr-200);
+}
+.attribution{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400; 
+    font-size: small;
+    word-spacing: 0.2rem;
+}
+
+.nav-link {
+    color: var(--neutral-clr);
+}
+
+.desription {
+    max-width: 31.25rem;
+}
+
+.button {
+    min-width: 12.5rem;
+}
+
+.hero {
+    background-image: url(../images/bg-curvy-mobile.svg);
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+.features .box p {
+    max-width: 27.75rem;
+}
+
+.testimonials .box img {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+}
+
+.contact-us p, .contact-us form {
+    max-width: 720px;
+}
+
+.contact-us .content {
+    transform: translateY(10rem);
+}
+
+.footer {
+    padding-top: 17rem;
+}
+.icons{
+    word-spacing: 0.5rem;
+}
+@media (min-width: 768px) {
+    h1 {
+        font-size: 3.5rem;
+    }
+
+    h2 {
+        font-size: 2.5rem;
+    }
+}
+@media (min-width: 768px) {
+    .hero {
+        background-image: url("../images/bg-curvy-desktop.svg");
+    }
+}
